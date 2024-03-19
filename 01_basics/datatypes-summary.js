@@ -14,7 +14,7 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-// const bigNumber = 3456543576654356754n
+const bigNumber = 3456543576654356754n
 
 
 
@@ -31,7 +31,13 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello world");
 }
+const man = () => console.log(2);
 
+console.log(typeof myObj);
+console.log(typeof myFunction);
+console.log(typeof heros);
+console.log(typeof bigNumber);
 console.log(typeof anotherId);
+console.log(typeof man);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
